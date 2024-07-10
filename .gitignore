@@ -13,11 +13,32 @@ target/
 .springBeans
 .sts4-cache
 
+###Backend###
+/target/
+*.class
+*.log
+*.jar
+*.war
+*.ear
+
+
 ### IntelliJ IDEA ###
 .idea
 *.iws
 *.iml
 *.ipr
+
+
+# Frontend
+/node_modules/
+/dist/
+/coverage/
+
+# IDEs and editors
+/.idea/
+/.vscode/
+/*.iml
+*.swp
 
 ### NetBeans ###
 /nbproject/private/
